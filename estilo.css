@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+button {
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #FF4500;
+}
+
+form {
+    background-color: #444;
+    text-align: center;
+    padding: 20px;
+    display: none;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="url"]:focus {
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button[type="reset"] {
+    background-color: #777;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover, button[type="reset"]:hover {
+    background-color: #FF4500;
+}
+
+/* Estilos para a lista de imagens */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0; /* Remova o preenchimento padrão da lista */
+}
+
+ul li {
+    position: relative; /* Define posição relativa para o elemento pai */
+    flex: 1;
+    max-width: 25%;
+    list-style: none;
+    padding: 10px; 
+    text-align: center;
+}
+
+/* Estilos para a lista de imagens */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0; /* Remova o preenchimento padrão da lista */
+}
+
+ul li {
+    flex: 1;
+    max-width: 25%;
+    list-style: none;
+    padding: 10px; 
+    text-align: center;
+}
+
+ul li img {
+    max-width: 100%;
+    height: auto; 
+}
+
+ul li img {
+    max-width: 200px; 
+    max-height: 200px; 
+    width: auto; 
+    height: auto; 
+}
+
+
+.link-img a {
+    text-decoration: none; 
+    background-color: #FF5733; 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    display: inline-block;
+    transition: background-color 0.3s; 
+}
+
+.link-img a:hover {
+    background-color: #FF4500;
+}
+
+
+
